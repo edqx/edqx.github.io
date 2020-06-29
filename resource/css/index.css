@@ -26,8 +26,23 @@ a {
 	width: 100%;
 	height: 100%;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+
+.center-main {
+	display: flex;
+	flex-direction: row;
+}
+
+.contacts {
+	display: flex;
+	flex-direction: row;
+}
+
+.contacts a {
+	margin-left: 10px;
 }
 
 .center-left-container {
@@ -69,7 +84,7 @@ a {
 }
 
 @media screen and (max-width: 1140px) {
-	.center-container {
+	.center-main {
 		flex-direction: column;
 	}
 	
