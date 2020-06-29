@@ -1,0 +1,73 @@
+html, body {
+	color: #ffffff;
+	font-size: 10pt;
+	font-family: 'Montserrat', sans-serif;
+	overflow-x: hidden;
+	background:
+        linear-gradient(
+          rgba(0, 0, 0, 0.9), 
+          rgba(0, 0, 0, 1)
+        ),
+        url("/resource/img/chimps.jpg");
+		
+	background-position: 50% 0%;
+	background-size: 1920px 1080px;
+	background-attachment: fixed;
+}
+
+a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.center-left-wrapper {
+	position: absolute;
+	left: 30%;
+	top: 50%;
+	-webkit-transform: translate(0%, -50%);
+	transform: translate(0%, -50%);
+}
+
+.center-left-container {
+	text-align: right;
+	padding-right: 21px;
+	border-right: 7px solid white;
+}
+
+.center-right-wrapper {
+	position: absolute;
+	left: 48%;
+	top: 50%;
+	-webkit-transform: translate(0%, -50%);
+	transform: translate(0%, -50%);
+}
+
+.center-right-container {
+	text-align: left;
+}
+
+.main-title {
+	font-size: 64pt;
+}
+
+.main-link {
+	display: inline-block;
+}
+
+.main-link {
+	padding-right: 100%;
+    transition: transform 0.5s ease;
+}
+
+.main-link span {
+	color: #333333;
+}
+
+.main-link:hover {
+	cursor: pointer;
+	transform: translate(1%, 0%);
+}
+
+.main-link:hover span {
+	color: #ffffff;
+}
