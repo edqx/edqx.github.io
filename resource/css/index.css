@@ -7,10 +7,10 @@ html, body {
 	overflow-x: hidden;
 	background:
         linear-gradient(
-          rgba(0, 0, 0, 0.9), 
-          rgba(0, 0, 0, 1)
+          rgba(0, 0, 0, 0.8), 
+          rgba(0, 0, 0, 0.95)
         ),
-        url("../img/chimps.jpg");
+        url("../img/chimps_small.jpg");
 		
 	background-position: 50% 0%;
 	background-size: 1920px 1080px;
