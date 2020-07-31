@@ -83,6 +83,10 @@ a {
 	color: #ffffff;
 }
 
+.disclaimer {
+	margin-top: 8px;
+}
+
 @media screen and (max-width: 1140px) {
 	.center-main {
 		flex-direction: column;
